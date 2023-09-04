@@ -3,6 +3,7 @@
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2023-09-04 16.26.00
 
+# PT 下载
 DOMAIN-KEYWORD,tracker
 DOMAIN-KEYWORD,announce.php?passkey=
 DOMAIN-KEYWORD,torrent
@@ -12,9 +13,8 @@ DOMAIN-KEYWORD,get_peers
 DOMAIN-KEYWORD,find_node
 DOMAIN-KEYWORD,BitTorrent
 DOMAIN-KEYWORD,announce_peer
-DOMAIN-SUFFIX,plex.tv
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-KEYWORD,xboxlive
+
+# PT 网站
 DOMAIN-SUFFIX,mbot.vip
 DOMAIN-SUFFIX,audiences.me
 DOMAIN-SUFFIX,m-team.cc
@@ -32,3 +32,17 @@ DOMAIN-SUFFIX,totheglory.im
 DOMAIN-SUFFIX,leaves.red
 DOMAIN-SUFFIX,springsunday.net
 DOMAIN-SUFFIX,azusa.wiki
+
+# Plex
+DOMAIN-SUFFIX,plex.tv
+DOMAIN-SUFFIX,axiom.co
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,fullstory.com
+DOMAIN-SUFFIX,liveramp.com
+DOMAIN-SUFFIX,mongodb.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,statsig.com
+
+
+# Xbox 下载
+DOMAIN-KEYWORD,xboxlive
