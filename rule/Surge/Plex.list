@@ -43,6 +43,11 @@ DOMAIN-SUFFIX,mongodb.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,statsig.com
 
+# DDNS
+DOMAIN,myip4.ipip.net
+DOMAIN,ddns.oray.com
+DOMAIN,ip.3322.net
+
 
 # Xbox 下载
 DOMAIN-KEYWORD,xboxlive
