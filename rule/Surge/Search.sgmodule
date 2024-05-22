@@ -17,7 +17,7 @@
 #^https?://www.google.cn/search\?q=pdd\+ pinduoduo://com.xunmeng.pinduoduo/search_result.html?search_key= 302
 #^https?://www.google.cn/search\?q=ytb\+ https://m.youtube.com/results?q= 302
 #^https?://www.google.cn/search\?q=as\+ itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term= 302
-^https?://www.google.cn/search\?q=tb\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=%@, 302
+^https?://www.google.cn/search\?q=tb\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=tb, 302
 ^https?://www.google.cn/search\?q=jd\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=%@, 302
 ^https?://www.google.cn/search\?q=zh\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=%@, 302
 ^https?://www.google.cn/search\?q=bl\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=%@, 302
