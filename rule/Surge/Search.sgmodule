@@ -1,0 +1,12 @@
+#!name=Search Rewrite
+#!desc=Safari 搜索重定向（Surge）
+#!system=ios
+
+[URL Rewrite]
+^https?://www.google.cn/search\?q=blbl\+ https://search.bilibili.com/all?keyword= 302
+^https?://www.google.cn/search\?q=ytb\+ https://www.youtube.com/results?search_query= 302
+
+^https?://www.google.cn/search\?q=zh\+ zhihu://search?q= 302
+
+[MITM]
+hostname = %APPEND% www.google.cn, www.g.cn
