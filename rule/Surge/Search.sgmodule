@@ -3,10 +3,20 @@
 #!system=ios
 
 [URL Rewrite]
-^https?://www.google.cn/search\?q=blbl\+ https://search.bilibili.com/all?keyword= 302
-^https?://www.google.cn/search\?q=ytb\+ https://www.youtube.com/results?search_query= 302
+#^https?://www.google.cn/search\?q=blbl\+ https://search.bilibili.com/all?keyword= 302
+#^https?://www.google.cn/search\?q=ytb\+ https://www.youtube.com/results?search_query= 302
 
-^https?://www.google.cn/search\?q=zh\+ zhihu://search?q= 302
+^https?://www.google.cn/search\?q=zh\+ zhihu://zhihu.com/search?q=%@ 302
+^https?://www.google.cn/search\?q=db\+ douban:///search?q=%@ 302
+^https?://www.google.cn/search\?q=tb\+ taobao://s.taobao.com?q=%@ 302
+^https?://www.google.cn/search\?q=xhs\+ xhsdiscover://search/recommend 302
+^https?://www.google.cn/search\?q=wm\+ meituanwaimai://waimai.meituan.com/search?query=%@ 302
+^https?://www.google.cn/search\?q=dzdp\+ dianping://searchshoplist?keyword=%@ 302
+^https?://www.google.cn/search\?q=blbl\+ bilibili://search?keyword=%@ 302
+^https?://www.google.cn/search\?q=jd\+ openjd://virtual?params={"des":"productList","keyWord":"%@","from":"search","category":"jump"} 302
+^https?://www.google.cn/search\?q=pdd\+ pinduoduo://com.xunmeng.pinduoduo/search_result.html?search_key=%@ 302
+^https?://www.google.cn/search\?q=ytb\+ https://m.youtube.com/results?q=%@ 302
+^https?://www.google.cn/search\?q=as\+ itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term=%@ 302
 
 [MITM]
 hostname = %APPEND% www.google.cn, www.g.cn
