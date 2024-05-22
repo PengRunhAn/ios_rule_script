@@ -3,6 +3,7 @@
 #!system=ios
 
 [URL Rewrite]
+^https?:\/\/(www.)?(g|google)\.cn" https://www.google.com 302
 #^https?://www.google.cn/search\?q=blbl\+ https://search.bilibili.com/all?keyword= 302
 #^https?://www.google.cn/search\?q=ytb\+ https://www.youtube.com/results?search_query= 302
 
@@ -18,16 +19,16 @@
 #^https?://www.google.cn/search\?q=ytb\+ https://m.youtube.com/results?q= 302
 #^https?://www.google.cn/search\?q=as\+ itms-apps://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?media=software&term= 302
 ^https?://www.google.cn/search\?q=tb\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=tb, 302
-^https?://www.google.cn/search\?q=jd\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=%@, 302
-^https?://www.google.cn/search\?q=zh\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=%@, 302
-^https?://www.google.cn/search\?q=bl\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=%@, 302
-^https?://www.google.cn/search\?q=yt\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=%@, 302
-^https?://www.google.cn/search\?q=dzdp\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=%@, 302
-^https?://www.google.cn/search\?q=db\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=%@, 302
-^https?://www.google.cn/search\?q=wm\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=%@, 302
-^https?://www.google.cn/search\?q=xhs\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=%@, 302
-^https?://www.google.cn/search\?q=pdd\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=%@, 302
-^https?://www.google.cn/search\?q=as\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=%@, 302
+^https?://www.google.cn/search\?q=jd\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=jd, 302
+^https?://www.google.cn/search\?q=zh\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=zh, 302
+^https?://www.google.cn/search\?q=bl\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=bl, 302
+^https?://www.google.cn/search\?q=yt\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=yt, 302
+^https?://www.google.cn/search\?q=dzdp\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=dzdp, 302
+^https?://www.google.cn/search\?q=db\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=db, 302
+^https?://www.google.cn/search\?q=wm\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=wm, 302
+^https?://www.google.cn/search\?q=xhs\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=xhs, 302
+^https?://www.google.cn/search\?q=pdd\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=pdd, 302
+^https?://www.google.cn/search\?q=as\+ shortcuts://x-callback-url/run-shortcut?name=URL%20Rewrite&input=text&text=as, 302
 
 [MITM]
 hostname = %APPEND% www.google.cn, www.g.cn
