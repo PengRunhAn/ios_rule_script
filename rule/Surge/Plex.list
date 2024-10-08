@@ -34,7 +34,7 @@ DOMAIN-SUFFIX,springsunday.net
 DOMAIN-SUFFIX,azusa.wiki
 
 # Plex
-DOMAIN-SUFFIX,plex.tv
+# DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,axiom.co
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,fullstory.com
