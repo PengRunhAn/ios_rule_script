@@ -1,8 +1,8 @@
 # Windsurf 域名走代理
-DOMAIN-SUFFIX=windsurf.ai, PROXY
-DOMAIN=api.windsurf.ai, PROXY
-DOMAIN=cdn.windsurf.ai, PROXY
+DOMAIN-SUFFIX,windsurf.ai
+DOMAIN,api.windsurf.ai
+DOMAIN,cdn.windsurf.ai
 
 # Codeium 也一并代理（Windsurf 属于 Codeium）
-DOMAIN-SUFFIX=codeium.com, PROXY
-DOMAIN=api.codeium.com, PROXY
+DOMAIN-SUFFIX,codeium.com
+DOMAIN,api.codeium.com
