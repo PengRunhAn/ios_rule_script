@@ -1,0 +1,25 @@
+[Rule]
+# Claude.ai 及 API 主域名
+DOMAIN-SUFFIX,claude.ai,DIRECT
+DOMAIN-SUFFIX,anthropic.com,DIRECT
+
+# 媒体／内容域名（如用户数据、图床等）
+DOMAIN-SUFFIX,claudeusercontent.com,DIRECT  # 新增域名 :contentReference[oaicite:1]{index=1}
+
+# 附属服务相关域名（认证、cdn、工具统计等）
+DOMAIN-SUFFIX,auth0.com,DIRECT
+DOMAIN-SUFFIX,intercom.io,DIRECT
+DOMAIN-SUFFIX,intercomcdn.com,DIRECT
+DOMAIN-SUFFIX,identrust.com,DIRECT
+DOMAIN-SUFFIX,client-api.arkoselabs.com,DIRECT
+DOMAIN-SUFFIX,events.statsigapi.net,DIRECT
+DOMAIN-SUFFIX,featuregates.org,DIRECT
+DOMAIN-SUFFIX,stripe.com,DIRECT
+DOMAIN-SUFFIX,sentry.io,DIRECT
+DOMAIN-SUFFIX,challenges.cloudflare.com,DIRECT
+
+# 可选一般 AI 服务依赖域（如 OpenAI、Bard 同组处理）
+DOMAIN-KEYWORD,anthropic,DIRECT
+DOMAIN-KEYWORD,claude,DIRECT
+DOMAIN-KEYWORD,openai,DIRECT  # 若和 OpenAI 同组可选 :contentReference[oaicite:2]{index=2}
+DOMAIN, bard.google.com, DIRECT  # 若你也使用 Bard :contentReference[oaicite:3]{index=3}
