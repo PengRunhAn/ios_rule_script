@@ -17,6 +17,9 @@ DOMAIN-SUFFIX,featuregates.org,DIRECT
 DOMAIN-SUFFIX,stripe.com,DIRECT
 DOMAIN-SUFFIX,sentry.io,DIRECT
 DOMAIN-SUFFIX,challenges.cloudflare.com,DIRECT
+DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,cdn.usefathom.com
 
 # 可选一般 AI 服务依赖域（如 OpenAI、Bard 同组处理）
 DOMAIN-KEYWORD,anthropic,DIRECT
