@@ -1,6 +1,9 @@
 # Claude.ai 及 API 主域名
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,api.anthropic.com
+DOMAIN-SUFFIX,chat-files.anthropic.com
+DOMAIN-SUFFIX,s3.us-west-2.amazonaws.com
 
 # 媒体／内容域名（如用户数据、图床等）
 DOMAIN-SUFFIX,claudeusercontent.com
