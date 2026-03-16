@@ -1,5 +1,6 @@
 # Claude.ai 及 API 主域名
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,api.anthropic.com
 DOMAIN-SUFFIX,chat-files.anthropic.com
