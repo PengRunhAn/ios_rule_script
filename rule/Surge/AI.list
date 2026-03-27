@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,challenges.cloudflare.com
 DOMAIN-SUFFIX,servd-anthropic-website.b-cdn.net
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,cdn.usefathom.com
+DOMAIN-SUFFIX,linux.do
 
 # 可选一般 AI 服务依赖域（如 OpenAI、Bard 同组处理）
 DOMAIN-KEYWORD,anthropic
