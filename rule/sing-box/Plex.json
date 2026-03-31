@@ -1,0 +1,50 @@
+﻿{
+    "version":  2,
+    "rules":  [
+                  {
+                      "domain":  [
+                                     "myip4.ipip.net",
+                                     "ddns.oray.com",
+                                     "ip.3322.net"
+                                 ],
+                      "domain_suffix":  [
+                                            "mbot.vip",
+                                            "audiences.me",
+                                            "m-team.cc",
+                                            "hhanclub.top",
+                                            "lemonhd.org",
+                                            "hdarea.co",
+                                            "hdchina.org",
+                                            "pttime.org",
+                                            "pterclub.com",
+                                            "hdfans.org",
+                                            "nicept.net",
+                                            "piggo.me",
+                                            "beitai.pt",
+                                            "totheglory.im",
+                                            "leaves.red",
+                                            "springsunday.net",
+                                            "azusa.wiki",
+                                            "axiom.co",
+                                            "cloudflare.com",
+                                            "fullstory.com",
+                                            "liveramp.com",
+                                            "mongodb.com",
+                                            "sentry.io",
+                                            "statsig.com"
+                                        ],
+                      "domain_keyword":  [
+                                             "tracker",
+                                             "announce.php?passkey=",
+                                             "torrent",
+                                             "peer_id=",
+                                             "info_hash",
+                                             "get_peers",
+                                             "find_node",
+                                             "BitTorrent",
+                                             "announce_peer",
+                                             "xboxlive"
+                                         ]
+                  }
+              ]
+}

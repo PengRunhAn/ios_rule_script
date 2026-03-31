@@ -1,0 +1,50 @@
+﻿{
+    "version":  2,
+    "rules":  [
+                  {
+                      "domain":  [
+                                     "bard.google.com"
+                                 ],
+                      "domain_suffix":  [
+                                            "claude.ai",
+                                            "claude.com",
+                                            "anthropic.com",
+                                            "api.anthropic.com",
+                                            "chat-files.anthropic.com",
+                                            "s3.us-west-2.amazonaws.com",
+                                            "claudeusercontent.com",
+                                            "auth0.com",
+                                            "intercom.io",
+                                            "intercomcdn.com",
+                                            "identrust.com",
+                                            "client-api.arkoselabs.com",
+                                            "events.statsigapi.net",
+                                            "featuregates.org",
+                                            "stripe.com",
+                                            "sentry.io",
+                                            "challenges.cloudflare.com",
+                                            "servd-anthropic-website.b-cdn.net",
+                                            "intercomcdn.com",
+                                            "cdn.usefathom.com",
+                                            "linux.do",
+                                            "apple-relay.mask.apple-dns.net",
+                                            "guzzoni.apple.com",
+                                            "smoot.apple.com",
+                                            "apple-relay.cloudflare.com",
+                                            "apple-relay.fastly-edge.com",
+                                            "cp4.cloudflare.com",
+                                            "apple-relay.apple.com",
+                                            "doh.dns.apple.com",
+                                            "apps.mzstatic.com",
+                                            "gateway.icloud.com",
+                                            "gspe1-ssl.ls.apple.com"
+                                        ],
+                      "domain_keyword":  [
+                                             "anthropic",
+                                             "claude",
+                                             "openai",
+                                             "apple-relay"
+                                         ]
+                  }
+              ]
+}

@@ -1,0 +1,25 @@
+﻿{
+    "version":  2,
+    "rules":  [
+                  {
+                      "domain_suffix":  [
+                                            "api.cloudflareclient.com",
+                                            "cloudflare.com",
+                                            "zero-trust-client.cloudflareclient.com",
+                                            "audiences.me",
+                                            "springsunday.net",
+                                            "hdfans.org",
+                                            "pttime.org",
+                                            "piggo.me",
+                                            "leaves.red",
+                                            "zusa.wiki",
+                                            "ourbits.club",
+                                            "pterclub.com"
+                                        ],
+                      "domain_keyword":  [
+                                             "1.1.1.1",
+                                             "Cloudflare"
+                                         ]
+                  }
+              ]
+}
