@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "anthropic.com",
+        "claude.ai",
+        "claude.com",
+        "clau.de",
+        "claudemcpclient.com",
+        "claudemcpcontent.com",
+        "claudeusercontent.com",
+        "sentry.io",
+        "statsigapi.net",
+        "intercom.io",
+        "intercomcdn.com"
+      ],
+      "domain": [
+        "servd-anthropic-website.b-cdn.net",
+        "anthropic.com.cdn.cloudflare.net",
+        "anthropic.auth0.com",
+        "anthropic-com.ghost.io",
+        "browser-intake-us5-datadoghq.com",
+        "cdn.usefathom.com",
+        "mcp.anthropic.com",
+        "console.anthropic.com",
+        "workbench.anthropic.com",
+        "t0.gstatic.com",
+        "t1.gstatic.com",
+        "t2.gstatic.com",
+        "t3.gstatic.com",
+        "storage.googleapis.com"
+      ],
+      "domain_keyword": [
+        "datadoghq",
+        "sift",
+        "claude",
+        "anthropic",
+        "sentry"
+      ],
+      "ip_cidr": [
+        "160.79.104.0/21",
+        "2607:6bc0::/32"
+      ]
+    }
+  ]
+}
